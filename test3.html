@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Hover Effect</title>
+</head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box
+        {
+            
+         background-image: linear-gradient(90deg,
+        rgba(17, 24, 39, 0.932),
+        rgba(0, 0, 0, 0.144) 150%);
+        height: 790px;
+        }
+        .back
+        {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            width: 100%;
+            height: 112%;
+            /*object-fit: cover;
+            transition: transform .4s ease-in;*/
+            
+        }
+        
+    </style>
+<body>
+    <div class="box">
+        <div>
+            <video autoplay loop muted plays-inline class="back">
+                <source src="./Video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</body>
+</html>

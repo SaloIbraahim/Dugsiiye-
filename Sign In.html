@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <style >
+        
+         
+         body{
+            background: #f5f5f5;
+            margin:0;
+            padding:0;
+        }
+         .container{
+         
+              position:relative;
+       }    
+       Header{
+            Display:flex;
+             justify-content:space-between;
+            height:80px;
+            background:white;
+            font-weight:semi-Bold;
+            
+                                           }
+      
+      .image{
+          width:300px;
+          height:100px;
+            }   
+    .href{
+         margin-top:35px;
+            }
+     .href a{
+         text-decoration:none;
+         color:black;
+         font-weight:semi-Bold;
+         font-family:arial;         
+         padding:10px 10px;  
+                  
+            }
+                
+     .buttom{
+         margin-top:35px;
+         margin-right:30px;
+    
+}
+.buttom a{
+         text-decoration:none;           
+         font-weight:semi-Bold;
+         font-family:arial;
+         margin-left:20px;
+         padding:10px 10px; 
+           
+}
+.button1{
+    color:black;
+}
+.button23 {
+    background-color: rgb(46, 161, 46);
+    padding: 10px;
+    border-radius: 3px;
+    color:white;
+}
+     main {
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+    margin: 0 auto;
+    top:350px;
+}
+
+.row 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.colm-form 
+{
+    flex: 0 0 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.colm-form .form-container 
+{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 50px;
+    max-width: 400px;
+    text-align: left;
+}
+.colm-form .form-container p
+{
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.colm-form .form-container input, .colm-form .form-container .btn-login {
+    width: 90%;
+    margin: 15px 0;
+    height: 45px;
+    font-size: 16px;
+}
+
+.colm-form .form-container input 
+{
+    margin-top: 20px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    padding: 0px 10px;
+    outline: none;
+    border-radius: 0.375rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.041), 0 1px 5px rgba(0, 0, 0, 0.082);
+}
+
+.colm-form .form-container input:focus 
+{
+    border: 2px solid #047857;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.colm-form .form-container .btn-login 
+{
+    background-color: #047857;
+    border: none;
+    width: 384px;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.colm-form .form-container a 
+{
+    display: block;
+    color: #00b884;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last 
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 16px;
+    margin-top: 5px;
+}
+.last h5
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 6px;
+}
+.last a
+{
+    color: #047857;
+    cursor: pointer;
+    font-size: large;
+}
+
+
+
+    </style>
+    
+</head>
+<body>
+          <Div class="container">
+           
+        <Header>
+            <div>
+                <img src="dark_green.png" alt="No image" class="image">
+            </div>
+            <nav class="href">
+           <a href="Dugsiiye.html">Home</a>
+                <a href="Courses.html">Course</a>
+                <a href="About.html">About</a>
+                <a href="#">contact</a> 
+            </nav>
+            <div class="buttom">                               
+                 <a href="Sign In.html" class="button1">Sign Up</a>
+                <a href="Sing up.html" class="button23">Sign In</a>
+            </div>
+        </Header>
+        </Div>
+           
+        <main>
+            <div class="row">
+                <div class="colm-form">
+                    <div class="form-container">
+                        <p>Email</p>
+                        <input type="email" placeholder="Person@gmail.com">
+                        <p>Password</p>
+                        <input type="password" placeholder="Password">
+                        <button class="btn-login">Login</button>
+                        <div class="last">
+                          <h5>I don't have account ! </h5>
+                          <a href="Sing up.html">Register</a>
+                        </div>
+                        <a href="#">Forgotten Password?</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+
+        
+</body>
+</html>
